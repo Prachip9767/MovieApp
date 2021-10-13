@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">WorkManagerMovieApp</string>
+    <string name="movie_id">Movie id</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="movie_language">Movie Language</string>
+    <string name="movie_released_date">Movie Released Date</string>
+    <string name="movie_popularity">Movie Popularity</string>
+    <string name="movie_overview">Movie OverView</string>
 </resources>

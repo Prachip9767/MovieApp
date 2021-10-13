@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Movie id"
+            android:text="@string/movie_id"
             android:id="@+id/tvMovieId"
             android:textSize="15sp"
             android:textStyle="bold"
@@ -33,7 +33,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Movie Name"
+        android:text="@string/movie_name"
         android:id="@+id/tvMovieName"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -43,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Movie Language"
+            android:text="@string/movie_language"
             android:id="@+id/tvMovieLanguage"
             android:textSize="15sp"
             android:textStyle="bold"
@@ -53,7 +53,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Movie Released Date"
+            android:text="@string/movie_released_date"
             android:id="@+id/tvMovieReleasedData"
             android:textSize="15sp"
             android:textStyle="bold"
@@ -63,7 +63,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Movie Popularity"
+            android:text="@string/movie_popularity"
             android:id="@+id/tvMoviePopularity"
             android:textSize="15sp"
             android:textStyle="bold"
@@ -73,7 +73,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Movie OverView"
+            android:text="@string/movie_overview"
             android:id="@+id/tvMoviePverView"
             android:textSize="15sp"
             android:textStyle="bold"

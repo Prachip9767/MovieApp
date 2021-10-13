@@ -40,24 +40,3 @@ class MainActivity : AppCompatActivity() {
 }
 
 
-/*  private fun fetchData() {
-      val apiCalling:APICalling
-       apiCalling =Network.getRetrofit().create(APICalling::class.java)
-      var ree:Call<ResponseDTO> = apiCalling.getInstance(Network.API_KEY)
-      ree.enqueue(object :Callback<ResponseDTO>{
-          override fun onResponse(call: Call<ResponseDTO>, response: Response<ResponseDTO>) {
-              movieList=response.body()!!.results
-              movieAdapter= MovieAdapter(this@MainActivity,movieList)
-              var linearLayoutManager=LinearLayoutManager(this@MainActivity)
-              recyclerView.layoutManager=linearLayoutManager
-              recyclerView.adapter=movieAdapter
-
-          }
-
-          override fun onFailure(call: Call<ResponseDTO>, t: Throwable) {
-              TODO("Not yet implemented")
-          }
-
-      })
-
-  }*/
